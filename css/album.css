@@ -1,0 +1,118 @@
+body,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(../img/2.png) no-repeat;
+}
+img{
+	border: none;
+}
+.box{
+	width: 100%;
+	height: 100%;
+}
+.inner{
+	width: 800px;
+	height: 280px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 1;
+}
+.inner ul{
+	width: 100%;
+	height: 100%;
+	border: 5px solid black;
+	padding: 10px;
+}
+.inner ul li{
+	width: 190px;
+	height: 130px;
+	border: 2px solid white;
+	margin-left:5px;
+	margin-top: 5px;
+	float: left; 
+}
+.inner ul li img{
+	width: 190px;
+	height: 130px;
+	border: 0;
+}
+.out{
+	background:rgba(0,0,0,0.95);
+	position: fixed;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: none;
+	z-index: 5;
+}
+.out .outbox{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.out .outbox img{
+	max-width:100%;
+	max-height:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+.out .btn{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 270px;
+	margin: auto 0;
+}
+.out .btn .btnleft{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	left: 15%;
+	cursor: pointer;
+}
+.out .btn .btnleft img{
+	width: 100px;
+}
+.out .btn .btnright{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	right: 15%;
+	cursor: pointer;
+}
+.out .btn .btnright img{
+	width: 100px;
+}
+.out .close{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	right: 100px;
+	cursor: pointer;
+}
+.out .close img{
+	width: 100px;
+}
